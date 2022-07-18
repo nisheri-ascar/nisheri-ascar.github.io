@@ -11,3 +11,5 @@ Satire attacks and arguments are fine, but limited to ***Ad Hominem*** which mea
 Don't.
 ## 4. Don't ever attempt to use loopholes in rules
 If you are human enough then you should have an idea what to and what not do to.
+## 5. No edgelords and normie filipino humor
+Please don't, its the main reason why *2D > 3D* group died to ashes.
