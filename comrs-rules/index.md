@@ -17,3 +17,7 @@ Please don't, its the main reason why *2D > 3D* group died to ashes.
 We gotta make international members welcome as much as possible
 ## 7. No gatekeeping/acting based
 Shut the fuck up please
+## 8. Keep nsfw stuff separated
+We have seperate gc for that, if so just tell the admins to get added.
+#
+Failing to follow the rules may lead to getting banned, depending on your offense it can go from day to months.
