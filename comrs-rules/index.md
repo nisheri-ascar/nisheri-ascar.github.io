@@ -19,5 +19,6 @@ We gotta make international members welcome as much as possible
 Shut the fuck up please
 ## 8. Keep nsfw stuff separated
 We have seperate gc for that, if so just tell the admins to get added.
-#
+
+# ‎ 
 Failing to follow the rules may lead to getting banned, depending on your offense it can go from day to months.
