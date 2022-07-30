@@ -13,8 +13,8 @@ Don't.
 If you are human enough then you should have an idea what to and what not do to.
 ## 5. No edgelords and normie filipino humor
 Please don't, its the main reason why *2D > 3D* group died to ashes.
-## 6. English only
-We gotta make international members welcome as much as possible
+## 6. Refrain talking to other language other than english
+Its fine to talk someone in your language, but not to the point you would use your own language to annoy others.
 ## 7. No gatekeeping/acting based
 Shut the fuck up please
 ## 8. Keep nsfw stuff separated
