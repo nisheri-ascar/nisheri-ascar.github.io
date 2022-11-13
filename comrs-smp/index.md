@@ -43,4 +43,26 @@ You can download Zerotier One app [here](https://play.google.com/store/apps/deta
 It is completely safe to download as its downloadable in Play Store.
 
 ### First setup
-Enter `b15644912eb2d624`. 
+1. Once installed, you will be greeted with this screen
+![FirstBootScreen](link.here)
+
+2. Click this button in order to add network
+![AddNetwork](Lin.ere)
+
+3. Copy `b15644912eb2d624` and paste to Network ID textbox, like in this image
+![NetworkIDPaste](Link.here)
+
+4. Click "Add Network"
+
+5. After doing it you will return in first screen, few moments this toast will appear
+![NeedAuthorizationByAdmin](Link.here)
+**Contact the Admins in order to get Authorized.**
+
+6. If the admins tell you you're now authorized you must visit http://10.147.17.69 which is the IP Address for the Server.
+You should be greeted with this
+![Success](Link.here)
+
+Or if something fails. You will get this instead:
+![Failure](Libk.here)
+> You may either contact the admins or visit [Troubleshoot](link.here) section.
+
