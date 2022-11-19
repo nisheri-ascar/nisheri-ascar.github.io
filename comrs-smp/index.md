@@ -34,7 +34,7 @@ Hello fellow member! In order to join our Minecraft SMP it is required to use a 
 
 > For Bedrock players. Jump to this [section]()
 
-> For Mobile players. Jump to this [section]()
+> For Mobile players. Jump to this [section](#Android)
 
 > For troubleshooting. Jump to this [section]()
 # Android
@@ -44,13 +44,13 @@ It is completely safe to download as its downloadable in Play Store.
 
 ### First setup
 1. Once installed, you will be greeted with this screen
-![FirstBootScreen](link.here)
+![FirstBootScreen](1.png)
 
 2. Click this button in order to add network
-![AddNetwork](Lin.ere)
+![AddNetwork](2.png)
 
-3. Copy `b15644912eb2d624` and paste to Network ID textbox, like in this image
-![NetworkIDPaste](Link.here)
+3. Copy `6ab565387a5e777e` and paste to Network ID textbox, like in this image
+![NetworkIDPaste](3.png)
 
 4. Click "Add Network"
 
@@ -60,9 +60,10 @@ It is completely safe to download as its downloadable in Play Store.
 
 6. If the admins tell you you're now authorized you must visit http://10.147.17.69 which is the IP Address for the Server.
 You should be greeted with this
-![Success](Link.here)
+![Success](5.png)
 
 Or if something fails. You will get this instead:
 ![Failure](Libk.here)
 > You may either contact the admins or visit [Troubleshoot](link.here) section.
 
+7. In Servers inside Minecraft, input `10.147.17.69` as IP and `19132` for port. And enjoy!
