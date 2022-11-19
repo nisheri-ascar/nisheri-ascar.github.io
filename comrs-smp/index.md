@@ -37,7 +37,10 @@ Hello fellow member! In order to join our Minecraft SMP it is required to use a 
 > For Mobile players. Jump to this [section](#Android)
 
 > For troubleshooting. Jump to this [section]()
+
+
 # Android
+
 ### Downloading Zerotier
 You can download Zerotier One app [here](https://play.google.com/store/apps/details?id=com.zerotier.one).
 It is completely safe to download as its downloadable in Play Store.
