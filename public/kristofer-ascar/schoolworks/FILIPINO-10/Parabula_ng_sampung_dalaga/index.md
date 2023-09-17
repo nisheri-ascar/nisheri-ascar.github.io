@@ -32,9 +32,9 @@
 	5. Yesha
 	6. Bea
 	7. Carmela
- 	8. Samantha
-  	9. Baretto
-  	10. Kent
+	8. Samantha
+	9. Baretto
+	10. Kent
 		
   // lack of members
 
