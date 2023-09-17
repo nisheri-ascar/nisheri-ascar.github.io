@@ -20,9 +20,10 @@
 * The parable teaches the importance of being prepared for the return of Christ and being vigilant in one's faith.
 
 ## Roles
+- Narrator: Kristofer
 - Groom: Rafael Palomo
 - Groom father: Liwanan
-- Bride father: Baretto
+- Bride father: Zabriel
 - Sampung dalaga:
 	1. Ciara
 	2. Glyzel
@@ -31,6 +32,9 @@
 	5. Yesha
 	6. Bea
 	7. Carmela
+ 	8. Samantha
+  	9. Baretto
+  	10. Kent
 		
   // lack of members
 
