@@ -23,7 +23,7 @@
 - Narrator: Kristofer
 - Groom: Rafael Palomo
 - Groom father: Liwanan
-- Bride father: Zabriel
+- Bride father: Kent
 - Sampung dalaga:
 	1. Ciara
 	2. Glyzel
@@ -33,8 +33,8 @@
 	6. Bea
 	7. Carmela
 	8. Samantha
-	9. Baretto
-	10. Kent
+	9. Baretto (Crossdress)
+	10. Zabriel (Crossdress)
 		
   // lack of members
 
