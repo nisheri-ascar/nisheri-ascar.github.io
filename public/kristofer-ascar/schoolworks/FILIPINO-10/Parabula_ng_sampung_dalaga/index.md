@@ -7,17 +7,17 @@
 
 ### key points summary:
 
-    Ten virgins are awaiting the arrival of a bridegroom for a wedding.
-    Five of them are wise and prepared with extra oil for their lamps.
-    The other five are foolish and have no extra oil.
-    The bridegroom is delayed, and all ten virgins fall asleep.
-    At midnight, a cry is heard that the bridegroom is coming.
-    The virgins trim their lamps, but the foolish ones run out of oil.
-    The wise virgins refuse to share their oil and advise the foolish ones to buy more.
-    While the foolish virgins are away buying oil, the bridegroom arrives.
-    The wise virgins enter the wedding feast with him, and the door is shut.
-    The foolish virgins return later but are denied entry.
-    The parable teaches the importance of being prepared for the return of Christ and being vigilant in one's faith.
+* Ten virgins are awaiting the arrival of a bridegroom for a wedding.
+* Five of them are wise and prepared with extra oil for their lamps.
+* The other five are foolish and have no extra oil.
+* The bridegroom is delayed, and all ten virgins fall asleep.
+* At midnight, a cry is heard that the bridegroom is coming.
+* The virgins trim their lamps, but the foolish ones run out of oil.
+* The wise virgins refuse to share their oil and advise the foolish ones to buy more.
+* While the foolish virgins are away buying oil, the bridegroom arrives.
+* The wise virgins enter the wedding feast with him, and the door is shut.
+* The foolish virgins return later but are denied entry.
+* The parable teaches the importance of being prepared for the return of Christ and being vigilant in one's faith.
 
 ## Roles
 - Groom: Rafael Palomo
@@ -31,7 +31,8 @@
 	5. Yesha
 	6. Bea
 	7. Carmela
-		// lack
+		
+  // lack of members
 
 - TODO
 ## Script:
