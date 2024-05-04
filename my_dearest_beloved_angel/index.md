@@ -1,4 +1,5 @@
-@mixin dark-appearance {
+<style>
+  @mixin dark-appearance {
   html, body  {
       --headings: #74c0fc;
       --links: #91a7ff;
@@ -10,6 +11,7 @@
       --code-text: #91a7ff;
   };
 }
+</style>
 
 # 00 - Prologue
 
