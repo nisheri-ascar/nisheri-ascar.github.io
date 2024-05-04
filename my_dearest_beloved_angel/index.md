@@ -1,3 +1,18 @@
+---
+@mixin dark-appearance {
+  html, body  {
+      --headings: #74c0fc;
+      --links: #91a7ff;
+      --highlight: #41c7c7;
+      --bg: #1f242a;
+      --bg-secondary: #323945;
+      --text: #adb5bd;
+      --text-secondary: #9ca3af;
+      --code-text: #91a7ff;
+  };
+}
+---
+
 # 00 - Prologue
 
 ## *What is love?*
