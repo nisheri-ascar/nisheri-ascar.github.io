@@ -1,7 +1,9 @@
 ---
 title: Wika Sa Media ni Kristofer Racsa
 ---
-<meta property="og:image" content="background.jpg" />
+<head>
+  <meta property="og:image" content="background.jpg" />
+</head>
 <style>
   img.rounded-corners {
   border-radius: 20px;
