@@ -3,7 +3,7 @@
   border-radius: 20px;
 }
 
-p {
+body {
   background-image: url('background.jpg');
 }
   
