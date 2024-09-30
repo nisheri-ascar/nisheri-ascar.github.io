@@ -1,7 +1,7 @@
 ---
 title: "Wika Sa Media ni Kristofer Racsa"
 description: "Gawain sa Komunikasyon At Pananaliksik HUMMS 11"
-image: "background.jpg"
+image: background.jpg
 ---
 <style>
   img.rounded-corners {
