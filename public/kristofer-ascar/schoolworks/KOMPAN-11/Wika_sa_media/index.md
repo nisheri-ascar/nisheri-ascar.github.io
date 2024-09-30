@@ -1,7 +1,7 @@
 ---
 title: "Wika Sa Media ni Kristofer Racsa"
 description: "Gawain sa Komunikasyon At Pananaliksik HUMMS 11"
-image: background.jpg
+image: https://nisheri-ascar.github.io/public/kristofer-ascar/schoolworks/KOMPAN-11/Wika_sa_media/background.jpg
 ---
 <style>
   img.rounded-corners {
