@@ -1,3 +1,6 @@
+---
+title: Wika Sa Media ni Kristofer Racsa
+---
 <style>
   img.rounded-corners {
   border-radius: 20px;
@@ -12,14 +15,14 @@ body {
   
 </style>
 <img src="image_1.png" alt="Header" class="rounded-corners" />
-<p align="center"><h1>Wika sa Media: Isang Pagsusuri</h1></p>
+<p align="center"><h1>Pagsusuri ng Wika sa Media</h1></p>
 
-<p><h5><i>Gawa ni Kristofer Racsa | Grade 11 Descartes</i></h5></p>
+<p><h5><i>Gawa ni Kristofer Racsa ng Grade 11 Descartes</i></h5></p>
 <p><h6>Setyembre 30 2024</h6></p>
 ---
 <br>
 
-Sa makabagong panahon, hindi maikakaila ang malaking papel ng media sa ating pang-araw-araw. Mula sa mga balita hanggang sa social media, ang wika ang nagsisilbing tulay na nag-uugnay ng impormasyon, ideya, at opinyon. Sa blog na ito, tatalakayin natin ang iba't ibang aspeto ng wika sa media—ang mga isyung pangwika, ang epekto nito sa lipunan, at ang paggamit ng wika sa iba't ibang platform.
+Sa makabagong panahon, hindi maikakaila ang malaking papel ng media sa ating pang-araw-araw. Mula sa mga balita hanggang sa social media, ang wika ang nagsisilbing tulay na nag-uugnay ng impormasyon, ideya, at opinyon. Itong blog na ito ay magtatalakay sa iba't ibang aspeto ng wika sa media; Ang mga isyung pangwika, ang epekto nito sa lipunan, at ang paggamit ng wika sa iba't ibang platform.
 
 ### Mga Isyung Pangwika
 
@@ -37,14 +40,14 @@ Ang wika sa media ay may malalim na epekto sa lipunan. Ang paraan ng pagpapahaya
 
 ### Paggamit ng Wika sa Iba’t Ibang Platform
 
-1. **Telebisyon at Radyo**: Sa mga tradisyunal na platform, karaniwan ang paggamit ng pormal na wika. Dito, mahalaga ang pag-unawa sa konteksto ng mga balita at mga isyu sa lipunan. Ang mga news anchors at reporters ay inaasahang gumamit ng wastong grammar at bokabularyo upang makapaghatid ng malinaw at maaasahang impormasyon.
+1. **Telebisyon at Radyo**: Sa mga tradisyunal na platform, karaniwan ang paggamit ng pormal na wika katulad ng tagalog o bisaya. Dito, mahalaga ang pag-unawa sa konteksto ng mga balita at mga isyu sa lipunan. Ang mga news anchors at reporters ay inaasahang gumamit ng wastong grammatika at bokabularyo upang makapaghatid ng malinaw na impormasyon.
 
-2. **Print Media**: Sa mga pahayagan at magasin, ang wika ay mas malikhain at mas may kalayaan. Maaaring gamitin ang kolumnista ang kanilang personal na boses, na nagbibigay ng iba’t ibang pananaw sa mga isyu.
+3. **Dyaro o Newspaper**: Sa mga pahayagan at magasin, ang wika ay mas malikhain at mas may kalayaan. Maaaring gamitin ang kolumnista ang kanilang personal na boses, na nagbibigay ng iba’t ibang pananaw sa mga isyu.
 
-3. **Social Media**: Dito, ang wika ay mas informal at kadalasang puno ng mga slang at acronyms. Ang mga platform gaya ng *Facebook*, *Twitter*, at *TikTok* ay nagiging kasangkapan upang mabilis na maipahayag ang mga saloobin at reaksyon. Gayunpaman, nagdudulot ito ng hamon sa pagiging tama at mapanuri sa impormasyong ibinabahagi.
+4. **Social Media**: Dito, ang wika ay mas informal at kadalasang puno ng mga slang at acronyms. Ang mga platform gaya ng *Facebook*, *Twitter*, at *TikTok* ay nagiging kasangkapan upang mabilis na maipahayag ang mga saloobin at reaksyon. Gayunpaman, nagdudulot ito ng hamon sa pagiging tama at mapanuri sa impormasyong ibinabahagi.
 
-### Konklusyon
+### Conclusion
 
 Ang wika sa media ay hindi lamang simpleng kasangkapan para sa komunikasyon. Ito ay may malawak na implikasyon sa ating lipunan, kultura, at pagkakaunawaan sa mundo. Sa pag-unawa sa mga isyung pangwika at epekto nito, mas magiging responsable tayo bilang mga mamamayan sa paggamit ng media. Mahalaga ang pagkakaroon ng kritikal na pananaw at pagpapahalaga sa wika upang mapanatili ang integridad ng impormasyon at mapanatili ang ating pagkakakilanlan bilang isang bansa. 
 
-Sa huli, ang wika ay isang makapangyarihang instrumento—isa itong salamin ng ating kultura at lipunan.
+Sa huli, ang wika ay isang makapangyarihang instrumento, isa itong repleksyon ng ating kultura at lipunan.
