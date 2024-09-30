@@ -2,6 +2,11 @@
   img.rounded-corners {
   border-radius: 20px;
 }
+
+p {
+  background-image: url('background.jpg');
+}
+  
 </style>
 <img src="image_1.png" alt="Header" class="rounded-corners" />
 <p align="center"><h1>Wika sa Media: Isang Pagsusuri</h1></p>
