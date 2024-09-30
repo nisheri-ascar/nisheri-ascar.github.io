@@ -4,12 +4,13 @@
 }
 </style>
 <img src="image_1.png" alt="Header" class="rounded-corners" />
-<p style="text-align:center"> <h1>Wika sa Media: Isang Pagsusuri</h1> </p>
-
----
+<p align="center"><h1>Wika sa Media: Isang Pagsusuri</h1></p>
 
 <p><h5><i>Gawa ni Kristofer Racsa | Grade 11 Descartes</i></h5></p>
-
+<p><h6>Setyembre 30 2024</h6></p>
+---
+<br>
+<br>
 Sa makabagong panahon, hindi maikakaila ang malaking papel ng media sa ating pang-araw-araw na buhay. Mula sa mga balita hanggang sa social media, ang wika ang nagsisilbing tulay na nag-uugnay sa atin sa impormasyon, ideya, at opinyon. Sa blog na ito, tatalakayin natin ang iba't ibang aspeto ng wika sa media—ang mga isyung pangwika, ang epekto nito sa lipunan, at ang paggamit ng wika sa iba't ibang platform.
 
 ### Mga Isyung Pangwika
