@@ -1,20 +1,8 @@
-<style>
-  @mixin dark-appearance {
-  html, body  {
-      --headings: #74c0fc;
-      --links: #91a7ff;
-      --highlight: #41c7c7;
-      --bg: #1f242a;
-      --bg-secondary: #323945;
-      --text: #adb5bd;
-      --text-secondary: #9ca3af;
-      --code-text: #91a7ff;
-  };
-}
-</style>
 
-## Wika sa Media: Isang Pagsusuri
-###### Gawa ni Kristofer Racsa
+![header](image_1.png)
+# Wika sa Media: Isang Pagsusuri
+---
+###### Gawa ni Kristofer Racsa | Grade 11 Descartes
 
 Sa makabagong panahon, hindi maikakaila ang malaking papel ng media sa ating pang-araw-araw na buhay. Mula sa mga balita hanggang sa social media, ang wika ang nagsisilbing tulay na nag-uugnay sa atin sa impormasyon, ideya, at opinyon. Sa blog na ito, tatalakayin natin ang iba't ibang aspeto ng wika sa media—ang mga isyung pangwika, ang epekto nito sa lipunan, at ang paggamit ng wika sa iba't ibang platform.
 
