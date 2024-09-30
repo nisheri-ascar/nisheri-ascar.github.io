@@ -18,16 +18,22 @@ body {
 <p><h6>Setyembre 30 2024</h6></p>
 ---
 <br>
-<br>
-Sa makabagong panahon, hindi maikakaila ang malaking papel ng media sa ating pang-araw-araw na buhay. Mula sa mga balita hanggang sa social media, ang wika ang nagsisilbing tulay na nag-uugnay sa atin sa impormasyon, ideya, at opinyon. Sa blog na ito, tatalakayin natin ang iba't ibang aspeto ng wika sa media—ang mga isyung pangwika, ang epekto nito sa lipunan, at ang paggamit ng wika sa iba't ibang platform.
+
+Sa makabagong panahon, hindi maikakaila ang malaking papel ng media sa ating pang-araw-araw. Mula sa mga balita hanggang sa social media, ang wika ang nagsisilbing tulay na nag-uugnay ng impormasyon, ideya, at opinyon. Sa blog na ito, tatalakayin natin ang iba't ibang aspeto ng wika sa media—ang mga isyung pangwika, ang epekto nito sa lipunan, at ang paggamit ng wika sa iba't ibang platform.
 
 ### Mga Isyung Pangwika
 
-Isang pangunahing isyu sa wika sa media ay ang pagkakaiba-iba ng mga wika at dialekto na ginagamit sa mga platform. Sa Pilipinas, halimbawa, may mga lokal na wika na madalas hindi napapansin sa mga mainstream media. Ang paggamit ng Filipino at iba pang katutubong wika sa balita ay mahalaga hindi lamang para sa inclusivity kundi para rin sa pag-preserve ng kultura. Sa mga social media, mas nakikita ang paggamit ng mga lokal na wika, na nagbibigay ng boses sa mga komunidad.
+Isang pangunahing issue ng wika sa media ay ang pagkakaiba-iba ng mga Language at Dialect na ginagamit sa mga platform. Sa Pilipinas, halimbawa, may mga lokal na balita na gumagamit ng lokal na wika na madalas hindi napapansin sa mainstream media, mahahalintulad natin ang isang impormasyon na nakatuon sa wikang Cebuano at hindi ito naka abot sa katagalugan 
+Ang paggamit ng Filipino at iba pang katutubong wika sa balita ay mahalaga hindi lamang para sa pagkakasama kundi para rin sa pag-preserve ng kultura. Sa mga social media, mas nakikita ang paggamit ng mga lokal na wika, na nagbibigay ng boses sa mga grupo.
 
-### Epekto sa Lipunan
+![language_barrier](https://media.istockphoto.com/id/511658952/vector/construction-barrier.jpg?s=612x612&w=0&k=20&c=2-uqKISBcL3140ROnRj2NPrGFscQHj8KQzzmZF_l8JA=)
 
-Ang wika sa media ay may malalim na epekto sa lipunan. Ang paraan ng pagpapahayag ng balita, mga opinyon, at mga saloobin ay nag-ambag sa paghubog ng pananaw ng publiko. Ang paggamit ng "clickbait" na mga pamagat ay nagpapakita ng pagbabago sa wika; madalas itong nagiging sanhi ng maling impormasyon o sensationalism. Ang pagkakaroon ng kritikal na pag-iisip sa mga impormasyong binabasa natin sa media ay mahalaga upang maiwasan ang maling konteksto.
+### Epekto sa Lipunan: Misinformation
+
+Ang wika sa media ay may malalim na epekto sa lipunan. Ang paraan ng pagpapahayag ng balita, mga opinyon, at mga saloobin ay nag-ambag sa paghubog ng pananaw ng publiko. Ang paggamit ng "clickbait" na mga pamagat ay nagpapakita ng pagbabago sa wika; madalas itong nagiging sanhi ng misinformation at disinformation. Ang pagkakaroon ng kritikal na pag-iisip sa mga impormasyong binabasa natin sa media ay mahalaga upang maiwasan ang maling impormasyon.
+
+![Misinformation](https://media.istockphoto.com/id/1433738953/vector/person-checking-news-on-smartphone-with-magnifying-glass-stop-spreading-fake-news-on-digital.jpg?s=612x612&w=0&k=20&c=R8VQLRCWx-SflhzNk_y9NA_EeFe1JVoUebqzBy8qEzU=)
+
 
 ### Paggamit ng Wika sa Iba’t Ibang Platform
 
