@@ -1,5 +1,9 @@
-
-![header](image_1.png)
+<style>
+  img.rounded-corners {
+  border-radius: 20px;
+}
+</style>
+<img src="image_1.png" alt="Header" class="rounded-corners" />
 # Wika sa Media: Isang Pagsusuri
 ---
 ###### Gawa ni Kristofer Racsa | Grade 11 Descartes
