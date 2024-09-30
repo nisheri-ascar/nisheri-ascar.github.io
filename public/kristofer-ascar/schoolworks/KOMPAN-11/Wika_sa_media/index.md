@@ -1,6 +1,6 @@
 ---
 title: "Wika Sa Media ni Kristofer Racsa"
-desc: "Gawain sa Komunikasyon At Pananaliksik HUMMS 11"
+description: "Gawain sa Komunikasyon At Pananaliksik HUMMS 11"
 image: "background.jpg"
 ---
 <style>
