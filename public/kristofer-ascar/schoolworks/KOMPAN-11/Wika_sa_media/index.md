@@ -4,6 +4,7 @@
 }
 
 body {
+  filter: brightness(50%);
   background-image: url('background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
