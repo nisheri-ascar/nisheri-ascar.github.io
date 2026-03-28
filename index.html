@@ -809,6 +809,7 @@
       </div>
 
       <!-- STATUS -->
+      <!-- FIXME: Make this one actually fetch real data, i'm thinking a daemon service runnning on my laptop that reads my process list and try to guess what i'm doing (similar to discord status) -->
       <div class="panel">
         <div class="panel-title">status.txt</div>
         <div class="panel-body status-box">
@@ -820,6 +821,7 @@
             <span style="color:var(--text);">🧠 hyperfocused <span style="font-size:11px; color:rgba(204,136,255,0.6);">(adhd mode)</span></span>
           </div>
           <div style="margin-top:8px;">
+	<!-- FIXME: Fix this clock -->
             <span class="status-label">my time:</span>
             <div class="clock-display"><span>⏱</span> <span id="clock">--:--:--</span></div>
           </div>
@@ -930,14 +932,10 @@
           <div class="skills-list">
             <span class="skill-badge pink" style="--d2:2.1s">C</span>
             <span class="skill-badge pink" style="--d2:2.5s">C++</span>
-            <span class="skill-badge pink" style="--d2:1.8s">Lua</span>
-            <span class="skill-badge purple" style="--d2:2.3s">GDScript</span>
-            <span class="skill-badge purple" style="--d2:3s">Godot</span>
+            <span class="skill-badge pink" style="--d2:1.8s">Rust</span>
             <span class="skill-badge purple" style="--d2:2.7s">Python</span>
             <span class="skill-badge lav" style="--d2:1.9s">Git</span>
             <span class="skill-badge lav" style="--d2:2.2s">Linux</span>
-            <span class="skill-badge lav" style="--d2:2.6s">HTML/CSS</span>
-            <span class="skill-badge pink" style="--d2:2.4s">JavaScript</span>
             <span class="skill-badge purple" style="--d2:2.0s">L-Systems</span>
             <span class="skill-badge lav" style="--d2:1.7s">fish shell</span>
           </div>
@@ -1078,6 +1076,7 @@
       </div>
 
       <!-- VISITOR COUNT -->
+      <!-- FIXME: Actually make this work, using the same backend from the ustatusd service-->
       <div class="panel">
         <div class="panel-title">visitors</div>
         <div class="panel-body visitor-count">
