@@ -784,12 +784,12 @@
 
   <!-- NAV -->
   <nav id="nav">
-    <a class="nav-btn" href="#">[ home ]</a>
-    <a class="nav-btn" href="#">[ projects ]</a>
-    <a class="nav-btn" href="#">[ about ]</a>
-    <a class="nav-btn" href="#">[ blog ]</a>
+    <a class="nav-btn" href="#header">[ home ]</a>
+    <a class="nav-btn" href="#section-projects">[ projects ]</a>
+    <a class="nav-btn" href="#section-about">[ about ]</a>
+    <a class="nav-btn" href="#section-blog">[ blog ]</a>
     <a class="nav-btn" href="https://github.com/nisheri-ascar" target="_blank">[ github ]</a>
-    <a class="nav-btn" href="#">[ contact ]</a>
+    <a class="nav-btn" href="#section-contact">[ contact ]</a>
   </nav>
 
   <!-- MAIN GRID -->
@@ -833,11 +833,11 @@
         <div class="panel-title">quick links</div>
         <div class="panel-body">
           <div class="link-list">
-            <a href="#">About</a>
-            <a href="#">Projects</a>
+            <a href="#header">About</a>
+            <a href="#section-projects">Projects</a>
             <a href="https://github.com/nisheri-ascar" target="_blank">GitHub ↗</a>
             <a href="https://www.threads.com/@nisherii_ascar" target="_blank">Threads ↗</a>
-            <a href="#">Sitemap</a>
+            <a href="#section-blog">Sitemap</a>
           </div>
         </div>
       </div>
@@ -860,7 +860,7 @@
     <div id="center-col">
 
       <!-- ABOUT -->
-      <div class="panel">
+      <div class="panel" id="section-about">
         <div class="panel-title">welcome.exe</div>
         <div class="panel-body">
           <div class="notice-box" style="margin-bottom:8px;">
@@ -943,7 +943,7 @@
       </div>
 
       <!-- PROJECTS -->
-      <div class="panel">
+      <div class="panel" id="section-projects">
         <div class="panel-title">projects // latest</div>
         <div class="panel-body">
 
@@ -1010,7 +1010,7 @@
       </div>
 
       <!-- UPDATE LOG -->
-      <div class="panel">
+      <div class="panel" id="section-blog">
         <div class="panel-title">update log</div>
         <div class="panel-body">
           <div class="update-log">
@@ -1068,7 +1068,7 @@
             </svg>
             <div>
               <div style="font-family:'Press Start 2P',monospace; font-size:6.5px; color:#ff6b6b; margin-bottom:3px;">YouTube Music ↗</div>
-              <div style="font-size:13px; color:var(--text); font-style:italic;">"Performative? Nah, screw that"</div>
+              <div style="font-size:13px; color:var(--text); font-style:italic;">Performative? Nah, screw that</div>
             </div>
           </a>
           <div style="font-size:11px; color:rgba(204,136,255,0.4); margin-top:5px; text-align:center;">♪ ♫ what i actually listen to ♫ ♪</div>
@@ -1087,7 +1087,7 @@
       </div>
 
       <!-- CONTACT -->
-      <div class="panel">
+      <div class="panel" id="section-contact">
         <div class="panel-title">contacts</div>
         <div class="panel-body">
           <div class="contact-list">
@@ -1101,26 +1101,24 @@
             </div>
             <div class="contact-item">
               <span class="contact-icon">✉</span>
-              <a href="#"><span class="__cf_email__" data-cfemail="f68f998384b6939b979f9ad89e938493">[email&#160;protected]</span></a>
+              <a href="mailto:your@email.here">[email redacted]</a>
             </div>
           </div>
         </div>
       </div>
 
       <!-- GUESTBOOK -->
-      <div class="panel">
+      <div class="panel" style="opacity:0.45; pointer-events:none; user-select:none;">
         <div class="panel-title">guestbook</div>
         <div class="panel-body">
-          <div class="guestbook-form">
-            <input type="text" placeholder="your name..." maxlength="30"/>
-            <textarea placeholder="leave a message..."></textarea>
-            <button class="submit-btn" onclick="signGuestbook()">[ sign it! ]</button>
+          <div style="text-align:center; padding:10px 0;">
+            <div style="font-family:'Press Start 2P',monospace; font-size:7px; color:var(--lavender);">not available (yet!)</div>
+            <div style="font-size:12px; color:rgba(204,136,255,0.5); margin-top:6px;">coming soon™</div>
           </div>
-          <div id="gb-entries" style="margin-top:8px; font-size:13px; display:flex; flex-direction:column; gap:4px;">
-            <div style="border:1px solid rgba(155,48,255,0.3); padding:4px 6px; background:rgba(60,0,90,0.4);">
-              <span style="color:var(--pink);">★anon:</span>
-              <span style="color:var(--text);"> cool site!! ✨</span>
-            </div>
+          <div class="guestbook-form">
+            <input type="text" placeholder="your name..." maxlength="30" disabled/>
+            <textarea placeholder="leave a message..." disabled></textarea>
+            <button class="submit-btn" disabled>[ sign it! ]</button>
           </div>
         </div>
       </div>
@@ -1157,7 +1155,7 @@
 
 </div>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script>
   document.addEventListener('DOMContentLoaded', function() {
 
     // STARS
@@ -1193,11 +1191,18 @@
     updateClock();
     setInterval(updateClock, 1000);
 
-    // VISITOR COUNT
-    const base = 1337;
-    const rand = Math.floor(Math.random() * 500);
+    // VISITOR COUNT (via CounterAPI — shared across all visitors, no account needed)
     const visEl = document.getElementById('visitor-num');
-    if (visEl) visEl.textContent = String(base + rand).padStart(6, '0');
+    if (visEl) {
+      fetch('https://api.counterapi.dev/v1/nisheri-ascar.github.io/visitors/up')
+        .then(r => r.json())
+        .then(data => {
+          visEl.textContent = String(data.count).padStart(6, '0');
+        })
+        .catch(() => {
+          visEl.textContent = '??????';
+        });
+    }
 
     // GUESTBOOK
     window.signGuestbook = function() {
@@ -1208,4 +1213,24 @@
       if (!msg) return;
       const entry = document.createElement('div');
       entry.style.cssText = 'border:1px solid rgba(155,48,255,0.3); padding:4px 6px; background:rgba(60,0,90,0.4);';
-      entry.innerHTML = `<span style="color:var(--pink);">★${name}:</span> <span style="color:var(--text);">${msg}</span>
+      entry.style.cssText = 'border:1px solid rgba(155,48,255,0.3); padding:4px 6px; background:rgba(60,0,90,0.4);';
+      // Sanitize input to prevent XSS
+      const safeName = document.createTextNode('★' + name + ':');
+      const nameSpan = document.createElement('span');
+      nameSpan.style.color = 'var(--pink)';
+      nameSpan.appendChild(safeName);
+      const msgSpan = document.createElement('span');
+      msgSpan.style.color = 'var(--text)';
+      msgSpan.textContent = ' ' + msg;
+      entry.appendChild(nameSpan);
+      entry.appendChild(msgSpan);
+      const gbEl = document.getElementById('gb-entries');
+      if (gbEl) gbEl.prepend(entry);
+      if (nameEl) nameEl.value = '';
+      if (msgEl) msgEl.value = '';
+    };
+
+  });
+</script>
+</body>
+</html>
