@@ -1194,7 +1194,7 @@
     // VISITOR COUNT (via CounterAPI — shared across all visitors, no account needed)
     const visEl = document.getElementById('visitor-num');
     if (visEl) {
-      fetch('https://api.counterapi.dev/v1/nisheri-ascar.github.io/visitors/up')
+      fetch('https://api.counterapi.dev/v1/nisheri-ascar.is-a.dev/visitors/up')
         .then(r => r.json())
         .then(data => {
           visEl.textContent = String(data.count).padStart(6, '0');
