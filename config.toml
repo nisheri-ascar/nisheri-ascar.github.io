@@ -1,0 +1,15 @@
+base_url = "https://your-domain-here.com"
+title = "KERNEL PANIC"
+description = "a site by nisheri-ascar — game dev · systems · void linux"
+compile_sass = false
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+
+[markdown]
+highlight_code = true
+highlight_theme = "dracula"
+
+[extra]
+author = "nisheri-ascar"
+github = "https://github.com/nisheri-ascar"
+threads = "https://www.threads.com/@nisherii_ascar"
