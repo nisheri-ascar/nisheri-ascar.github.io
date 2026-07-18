@@ -18,12 +18,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Debug whatever the fuck happened to this environment
-        shell: bash
-        run: |
-          ls
-          ls ..
-          find ..
       - name: checkout
         uses: actions/checkout@v6.0.1
 
@@ -32,7 +26,13 @@ jobs:
         with:
           zola_version: v0.22.1
           check_links: true
-          working_directory: "nisheri-ascar.github.io"
+      - name: Debug whatever the fuck happened to this environment
+        shell: bash
+        run: |
+          ls
+          ls ..
+          find ..
+
         
 
   deploy:
