@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>nisheri-ascar</title>
+<link rel="stylesheet" href="/style.css">
+<script src="/script.js"></script>
+</head>
+<body>
+
+<!-- STAR FIELD -->
+<div id="stars"></div>
+
+
+<div id="wrapper">
+
+  <!-- HEADER -->
+  <div id="header">
+    <div id="site-title">nisherii's underground cave</div>
+    <div id="subtitle">// · game dev · systems · <span>void linux</span> //</div>
+  </div>
+
+  <!-- MARQUEE -->
+  <div class="marquee-bar">
+    <div class="marquee-inner">
+      ★ WELCOME TO MY CORNER OF THE WEB ★<span class="marquee-sep">✦</span>
+      DEV · BUILD · CREATE · SHIP<span class="marquee-sep">✦</span>
+      CURRENTLY: WRITING CODE AND DRINKING TOO MUCH COFFEE<span class="marquee-sep">✦</span>
+      CHECK OUT MY PROJECTS BELOW ↓<span class="marquee-sep">✦</span>
+      BEST VIEWED IN: ANY BROWSER (i'm not picky)<span class="marquee-sep">✦</span>
+      ★ WELCOME TO MY CORNER OF THE WEB ★
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <a class="nav-btn" href="#header">[ home ]</a>
+    <a class="nav-btn" href="#section-projects">[ projects ]</a>
+    <a class="nav-btn" href="#section-about">[ about ]</a>
+    <a class="nav-btn" href="#section-blog">[ blog ]</a>
+    <a class="nav-btn" href="https://github.com/nisheri-ascar" target="_blank">[ github ]</a>
+    <a class="nav-btn" href="#section-contact">[ contact ]</a>
+  </nav>
+
+  <!-- MAIN GRID // Main content -->
+
+  <div id="main-grid">
+
+    <!-- LEFT SIDEBAR -->
+    <div id="left-col">
+
+      <!-- AVATAR / IDENTITY -->
+      <div class="panel">
+        <div class="panel-title">id card</div>
+        <div class="panel-body" style="text-align:center">
+          <img src="https://avatars.githubusercontent.com/u/50684527?v=4" alt="nisheri-ascar" style="width:100%; max-width:130px; display:block; margin:0 auto; border:2px solid var(--panel-border); box-shadow:0 0 12px rgba(155,48,255,0.5); image-rendering:auto;"/>
+          <div style="margin-top:6px; font-family:'Press Start 2P',monospace; font-size:7px; color:var(--pink);">nisheri-ascar</div>
+          <div style="font-size:13px; color:var(--lavender); margin-top:2px;">web dev / builder</div>
+        </div>
+      </div>
+
+      <!-- STATUS -->
+      <!-- FIXME: Make this one actually fetch real data, i'm thinking a daemon service runnning on my laptop that reads my process list and try to guess what i'm doing (similar to discord status) -->
+      <div class="panel">
+        <div class="panel-title">status.txt</div>
+        <div class="panel-body status-box">
+          <span class="status-label">currently:</span>
+          <span class="mood-indicator"></span>
+          <span class="status-val">online & coding</span>
+          <div style="margin-top:8px;">
+            <span class="status-label">mood:</span>
+            <span style="color:var(--text);">🧠 hyperfocused <span style="font-size:11px; color:rgba(204,136,255,0.6);">(adhd mode)</span></span>
+          </div>
+          <div style="margin-top:8px;">
+            <span class="status-label">my time:</span>
+            <div class="clock-display"><span>⏱</span> <span id="clock">--:--:--</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- QUICK LINKS -->
+      <div class="panel">
+        <div class="panel-title">quick links</div>
+        <div class="panel-body">
+          <div class="link-list">
+            <a href="#header">About</a>
+            <a href="#section-projects">Projects</a>
+            <a href="https://github.com/nisheri-ascar" target="_blank">GitHub ↗</a>
+            <a href="https://www.threads.com/@nisherii_ascar" target="_blank">Threads ↗</a>
+            <a href="#section-blog">Sitemap</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- WEB RINGS -->
+      <div class="panel">
+        <div class="panel-title">webrings</div>
+        <div class="panel-body">
+          <div class="webrings">
+            <div class="webring-item">⟨ <span>DEV RING</span> ⟩</div>
+            <div class="webring-item">⟨ <span>PIXEL WEB</span> ⟩</div>
+            <div class="webring-item">⟨ <span>INDIE NET</span> ⟩</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CENTER COLUMN -->
+    <div id="center-col">
+
+      <!-- ABOUT -->
+      <div class="panel" id="section-about">
+        <div class="panel-title">welcome.exe</div>
+        <div class="panel-body">
+          <div class="notice-box" style="margin-bottom:8px;">
+            this site is perpetually under construction. that's part of the charm.
+          </div>
+          <p class="about-text">
+            hey! i'm <b>nisheri-ascar</b> — a programmer mostly into <b>game dev</b> and <b>system programming</b>.
+            i have a lot of started projects and not enough finished ones. that's just how it is.
+            make yourself at home. dust probably is: <b>accumulating somewhere</b>.
+          </p>
+          <p class="about-text" style="margin-top:8px;">
+            i did research programming once and it led to <b>actual money</b>, which was wild.
+            summer is when i become a real person again and actually ship things.
+            find me on <a href="https://github.com/nisheri-ascar" target="_blank">github ↗</a> or
+            <a href="https://www.threads.com/@nisherii_ascar" target="_blank">threads ↗</a>.
+          </p>
+          <div class="pixel-divider" style="margin-top:10px;"></div>
+          <div style="font-size:13px; color:var(--lavender);">to traverse: use the nav above, or explore the <b style="color:var(--pink)">info</b> page.</div>
+        </div>
+      </div>
+
+      <!-- TERMINAL -->
+      <div class="panel">
+        <div class="panel-title">terminal</div>
+        <div class="panel-body" style="padding:6px;">
+          <div class="terminal-window">
+            <div class="term-topbar">
+              <div class="term-dot r"></div>
+              <div class="term-dot y"></div>
+              <div class="term-dot g"></div>
+              <span class="term-title-bar">nisherii@aspire-e5411 — fish</span>
+            </div>
+            <div class="term-fetch">
+              <div class="term-logo">
+                <pre>
+                <img src="assets/void-logo.svg">
+                </pre>
+
+      </div>
+              <div class="term-info"><span class="ti-user">nisherii</span><span class="ti-sep">@</span><span class="ti-user">aspire-e5411</span>
+<span class="ti-sep">---------------------</span>
+<span class="ti-key">OS</span><span class="ti-sep">: </span><span class="ti-val">Void Linux x86_64</span>
+<span class="ti-key">Host</span><span class="ti-sep">: </span><span class="ti-val">Aspire E5-411 (V1.08)</span>
+<span class="ti-key">Kernel</span><span class="ti-sep">: </span><span class="ti-val">Linux 6.12.77_1</span>
+<span class="ti-key">Shell</span><span class="ti-sep">: </span><span class="ti-val">fish 4.5.0</span>
+<span class="ti-key">WM</span><span class="ti-sep">: </span><span class="ti-val">labwc 0.9.5 (Wayland)</span>
+<span class="ti-key">Theme</span><span class="ti-sep">: </span><span class="ti-val">Dream-Violet-Dark-GTK</span>
+<span class="ti-key">CPU</span><span class="ti-sep">: </span><span class="ti-val">Intel Celeron N2940 @ 2.25GHz</span>
+<span class="ti-key">Memory</span><span class="ti-sep">: </span><span class="ti-val">1.39 GiB / 1.81 GiB</span>
+<span class="ti-key">Disk</span><span class="ti-sep">: </span><span class="ti-val">83.70 GiB / 97.23 GiB - ext4</span>
+<span class="ti-key">Packages</span><span class="ti-sep">: </span><span class="ti-val">1252 (xbps), 15 (flatpak)</span>
+
+<span class="ti-col">████</span><span class="ti-col" style="color:#ff2d9b">████</span><span class="ti-col" style="color:#9b30ff">████</span><span class="ti-col" style="color:#cc88ff">████</span><span class="ti-col" style="color:#ff6eb4">████</span><span class="ti-col" style="color:#478061">████</span><span class="ti-col" style="color:#44ff88">████</span><span class="ti-col" style="color:#d4d4d4">████</span>
+</div>
+            </div>
+            <div style="margin-top:6px;"><span class="ti-prompt">❯ </span><span class="ti-val blink">_</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SKILLS -->
+      <div class="panel">
+        <div class="panel-title">skills.json</div>
+        <div class="panel-body">
+          <div class="skills-list">
+            <span class="skill-badge pink" style="--d2:2.1s">C</span>
+            <span class="skill-badge pink" style="--d2:2.5s">C++</span>
+            <span class="skill-badge pink" style="--d2:1.8s">Rust</span>
+            <span class="skill-badge purple" style="--d2:2.7s">Python</span>
+            <span class="skill-badge lav" style="--d2:1.9s">Git</span>
+            <span class="skill-badge lav" style="--d2:2.2s">Linux</span>
+            <span class="skill-badge purple" style="--d2:2.0s">L-Systems</span>
+            <span class="skill-badge lav" style="--d2:1.7s">fish shell</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECTS -->
+      <div class="panel" id="section-projects">
+        <div class="panel-title">projects // latest</div>
+        <div class="panel-body">
+
+          <!-- FEATURED -->
+          <div style="margin-bottom:8px; background:rgba(155,48,255,0.12); border:1px solid var(--pink); padding:8px; position:relative;">
+            <div style="position:absolute; top:-1px; right:6px; font-family:'Press Start 2P',monospace; font-size:6px; background:var(--hot-pink); color:#000; padding:2px 5px;">★ MOST PROUD</div>
+            <div class="project-card-title" style="font-size:8px; margin-bottom:5px;">WaterSpinach L-System Research</div>
+            <div class="project-desc">research programming project modelling water spinach plant growth using L-Systems. this one <b style="color:var(--pink)">actually earned me money</b> — my first paid programming work. pretty surreal.</div>
+            <div class="project-tags" style="margin-top:5px;">
+              <span class="tag">L-Systems</span>
+              <span class="tag">Research</span>
+              <span class="tag">Python</span>
+              <span class="tag">Simulation</span>
+            </div>
+            <a class="project-link" href="https://github.com/nisheri-ascar/WaterSpinachLSystemResearch" target="_blank">→ view on github ↗</a>
+          </div>
+
+          <div class="projects-grid">
+            <div class="project-card" data-tip="wip!">
+              <div class="project-card-title">Keiagi! <span style="color:rgba(204,136,255,0.5)">[wip]</span></div>
+              <div class="project-desc">Taikomania clone written in C. not sure when i'll ever finish this one though.</div>
+              <div class="project-tags">
+                <span class="tag">C</span>
+                <span class="tag">Rhythm Game</span>
+              </div>
+              <a class="project-link" href="https://github.com/nisheri-ascar/unidentified-rhythm-game" target="_blank">→ github</a>
+            </div>
+            <div class="project-card" data-tip="wip!">
+              <div class="project-card-title">Minecraft Server in Koyeb <span style="color:rgba(204,136,255,0.5)">[wip]</span></div>
+              <div class="project-desc">Imagine you can run a minecraft server 24/7 without spending a penny! sadly it proved that minecraft server needs hefty lots of resources. man imagine a fully playable vanilla server on 512mb of ram <i>(foreshadowing)</i>. Check my previous progress on <a class="project-link" style="display:inline; margin:0;" href="https://bsky.app/profile/nisheri-kyuniixx.bsky.social" target="_blank">BlueSky ↗</a></div>
+              <div class="project-tags">
+                <span class="tag">Java</span>
+                <span class="tag">Docker</span>
+                <span class="tag">Koyeb</span>
+              </div>
+              <a class="project-link" href="https://github.com/nisheri-ascar/Minecraft-On-Koyeb" target="_blank">→ github</a>
+            </div>
+            <div class="project-card" data-tip="wip!">
+              <div class="project-card-title">this website! <span style="color:rgba(204,136,255,0.5)">[wip]</span></div>
+              <div class="project-desc">hand-coded with love, chaos, and too many css variables. perpetually unfinished.</div>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JS</span>
+              </div>
+              <a class="project-link" href="https://github.com/nisheri-ascar" target="_blank">→ source</a>
+            </div>
+            <div class="project-card" data-tip="maybe summer?">
+              <div class="project-card-title">??? <span style="color:rgba(204,136,255,0.5)">[future]</span></div>
+              <div class="project-desc">coming when summer hits and i hyperfocus for 3 weeks straight. stay tuned.</div>
+              <div class="project-tags">
+                <span class="tag">TBD</span>
+                <span class="tag">soon™</span>
+              </div>
+              <a class="project-link" href="https://github.com/nisheri-ascar" target="_blank">→ watch repo</a>
+            </div>
+          </div>
+          <div style="text-align:right; margin-top:6px;">
+            <a href="https://github.com/nisheri-ascar" target="_blank" style="font-family:'Press Start 2P',monospace; font-size:7px; color:var(--lavender); text-decoration:none;">
+              [ see all on github → ]
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- RECENT POSTS -->
+      
+      <div class="panel" id="section-blog">
+        <div class="panel-title">blog // recent posts</div>
+        <div class="panel-body">
+          
+          <div class="post-list">
+            
+            <a class="post-entry" href="https:&#x2F;&#x2F;nisheri-ascar.is-a.dev&#x2F;blog&#x2F;a&#x2F;">
+              <div class="post-entry-date">
+                2025.02.05
+              </div>
+              <div class="post-entry-body">
+                <div class="post-entry-title">Running a Minecraft Server without paying a cent (and having full control)</div>
+                
+              </div>
+              <div class="post-entry-arrow">→</div>
+            </a>
+            
+            <a class="post-entry" href="https:&#x2F;&#x2F;nisheri-ascar.is-a.dev&#x2F;blog&#x2F;running-a-minecraft-server-without-paying-a-cent-and-having-full-control&#x2F;">
+              <div class="post-entry-date">
+                2025.02.05
+              </div>
+              <div class="post-entry-body">
+                <div class="post-entry-title">Running a Minecraft Server without paying a cent (and having full control)</div>
+                
+              </div>
+              <div class="post-entry-arrow">→</div>
+            </a>
+            
+          </div>
+          <div style="text-align:right; margin-top:6px;">
+            <a href="https:&#x2F;&#x2F;nisheri-ascar.is-a.dev&#x2F;blog&#x2F;" style="font-family:'Press Start 2P',monospace; font-size:7px; color:var(--lavender); text-decoration:none;">
+              [ see all posts → ]
+            </a>
+          </div>
+          
+        </div>
+      </div>
+
+      <!-- 88x31 BUTTONS
+      <div class="panel">
+        <div class="panel-title">link me!</div>
+        <div class="panel-body">
+          <div class="buttons-grid">
+            <a class="btn88 p" href="#">NISHERI-ASCAR</a>
+            <a class="btn88 pk" href="https://github.com/nisheri-ascar" target="_blank">FIND ME ON<br>GITHUB</a>
+            <a class="btn88 g" href="#">HAND CODED<br>WITH ♥</a>
+            <a class="btn88 p" href="#">PIXEL PROUD<br>2026</a>
+          </div>
+        </div>
+      </div>  -->
+    </div>
+
+    <!-- RIGHT SIDEBAR -->
+    <div id="right-col">
+
+      <!-- MY PLAYLIST -->
+      <div class="panel">
+        <div class="panel-title">my playlist</div>
+        <div class="panel-body">
+          <a href="https://music.youtube.com/@yetanotherlinuxuser3185" target="_blank" style="text-decoration:none; display:flex; align-items:center; gap:8px; padding:6px; background:rgba(255,0,0,0.08); border:1px solid rgba(255,80,80,0.3); transition:all 0.2s;" onmouseover="this.style.background='rgba(255,0,0,0.18)'; this.style.borderColor='rgba(255,80,80,0.7)'" onmouseout="this.style.background='rgba(255,0,0,0.08)'; this.style.borderColor='rgba(255,80,80,0.3)'">
+            <!-- YouTube Music logo -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Youtube_Music_icon.svg" width="28" height="28">
+            <div>
+              <div style="font-family:'Press Start 2P',monospace; font-size:6.5px; color:#ff6b6b; margin-bottom:3px;">YouTube Music ↗</div>
+              <div style="font-size:13px; color:var(--text); font-style:italic;">Performative? Nah, screw that</div>
+            </div>
+          </a>
+          <div style="font-size:11px; color:rgba(204,136,255,0.4); margin-top:5px; text-align:center;">♪ ♫ what i actually listen to ♫ ♪</div>
+        </div>
+      </div>
+
+      <!-- VISITOR COUNT -->
+      <!-- FIXME: Actually make this work, using the same backend from the ustatusd service-->
+      <div class="panel">
+        <div class="panel-title">visitors</div>
+        <div class="panel-body visitor-count">
+          <div class="count-label">you are visitor no.</div>
+          <span class="count-display" id="visitor-num">000001</span>
+          <div class="count-label">thanks for stopping by! <span class="blink">♥</span></div>
+        </div>
+      </div>
+
+      <!-- CONTACT -->
+      <div class="panel" id="section-contact">
+        <div class="panel-title">contacts</div>
+        <div class="panel-body">
+          <div class="contact-list">
+            <div class="contact-item">
+              <span class="contact-icon">⬡</span>
+              <a href="https://github.com/nisheri-ascar" target="_blank">github.com/nisheri-ascar</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">◎</span>
+              <a href="https://www.threads.com/@nisherii_ascar" target="_blank">@nisherii_ascar</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">✉</span>
+              <a href="mailto:your@email.here">[email redacted]</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- GUESTBOOK -->
+      <div class="panel" style="opacity:0.45; pointer-events:none; user-select:none;">
+        <div class="panel-title">guestbook</div>
+        <div class="panel-body">
+          <div style="text-align:center; padding:10px 0;">
+            <div style="font-family:'Press Start 2P',monospace; font-size:7px; color:var(--lavender);">not available (yet!)</div>
+            <div style="font-size:12px; color:rgba(204,136,255,0.5); margin-top:6px;">coming soon™</div>
+          </div>
+          <div class="guestbook-form">
+            <input type="text" placeholder="your name..." maxlength="30" disabled/>
+            <textarea placeholder="leave a message..." disabled></textarea>
+            <button class="submit-btn" disabled>[ sign it! ]</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- SITE INFO -->
+      <div class="panel">
+        <div class="panel-title">site info</div>
+        <div class="panel-body" style="font-size:12px; color:var(--lavender); line-height:1.8;">
+          <div>★ hand-coded html/css/js</div>
+          <div>★ no frameworks</div>
+          <div>★ no trackers</div>
+          <div>★ perpetually wip</div>
+          <div style="margin-top:6px; color:rgba(204,136,255,0.5); font-size:11px;">est. 2026</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+<<<<<<< HEAD
+  <!-- FOOTER MARQUEE  -->
+=======
+  <!-- FOOTER MARQUEE -->
+>>>>>>> parent of 283223f (remove footer marquee for now)
+  <div class="marquee-bar" style="margin-top:8px;">
+    <div class="marquee-inner" style="animation-direction:reverse; animation-duration:22s;">
+      ✦ NISHERI-ASCAR.IS-A.DEV ✦ MADE WITH HTML CSS AND SPITE ✦ NO COOKIES NO TRACKERS NO NONSENSE ✦ STAY A WHILE ✦ NISHERI-ASCAR.IS-A.DEV ✦
+    </div>
+
+  </div> 
+  
+
+  </div>
+
+
+  <!-- FOOTER -->
+  <div id="footer">
+    <span>nisheri-ascar</span> © 2026–forever · built by hand ·
+    <span class="blink">★</span>
+    <a href="https://github.com/nisheri-ascar" target="_blank" style="color:var(--lavender); text-decoration:none;">github ↗</a>
+    · made with <a href="https://claude.ai" target="_blank" style="color:var(--pink); text-decoration:none;">claude</a> <span style="color:var(--hot-pink);">♥</span>
+  </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://nisheri-ascar.is-a.dev/sitemap.xml

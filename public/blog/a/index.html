@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>nisheri-ascar</title>
+<link rel="stylesheet" href="/style.css">
+<script src="/script.js"></script>
+</head>
+<body>
+
+<!-- STAR FIELD -->
+<div id="stars"></div>
+
+
+<div id="wrapper">
+
+  <!-- HEADER -->
+  <div id="header">
+    <div id="site-title">nisherii's underground cave</div>
+    <div id="subtitle">// · game dev · systems · <span>void linux</span> //</div>
+  </div>
+
+  <!-- MARQUEE -->
+  <div class="marquee-bar">
+    <div class="marquee-inner">
+      ★ WELCOME TO MY CORNER OF THE WEB ★<span class="marquee-sep">✦</span>
+      DEV · BUILD · CREATE · SHIP<span class="marquee-sep">✦</span>
+      CURRENTLY: WRITING CODE AND DRINKING TOO MUCH COFFEE<span class="marquee-sep">✦</span>
+      CHECK OUT MY PROJECTS BELOW ↓<span class="marquee-sep">✦</span>
+      BEST VIEWED IN: ANY BROWSER (i'm not picky)<span class="marquee-sep">✦</span>
+      ★ WELCOME TO MY CORNER OF THE WEB ★
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <a class="nav-btn" href="#header">[ home ]</a>
+    <a class="nav-btn" href="#section-projects">[ projects ]</a>
+    <a class="nav-btn" href="#section-about">[ about ]</a>
+    <a class="nav-btn" href="#section-blog">[ blog ]</a>
+    <a class="nav-btn" href="https://github.com/nisheri-ascar" target="_blank">[ github ]</a>
+    <a class="nav-btn" href="#section-contact">[ contact ]</a>
+  </nav>
+
+  <!-- MAIN GRID // Main content -->
+
+<div class="blog-layout">
+
+  <article class="panel">
+    <div class="panel-title">
+      <a href="https://nisheri-ascar.is-a.dev/blog" style="color:var(--lavender); text-decoration:none;">blog</a>
+      <span style="color:var(--purple);">/ </span>
+      Running a Minecraft Server without paying a cent (and having full control)
+    </div>
+    <div class="panel-body">
+
+      <!-- POST META -->
+      <div class="post-meta">
+        <span class="post-meta-date">
+          📅 2025.02.05
+        </span>
+        
+        <span class="post-meta-sep">·</span>
+        <span class="post-meta-read">⏱ 8 min read</span>
+        
+        
+      </div>
+
+      <div class="pixel-divider"></div>
+
+      <!-- POST CONTENT -->
+      <div class="post-content">
+        <p>#ChroniclesOfBrokeKid</p>
+<p>Since 2019, I have been toying the idea of running a minecraft server of my own. My elementary classmates would play various multiplayer games, but minecraft was prominent.</p>
+<p>April of 2020 was the first taste I had of running a minecraft server, My parents lent me a barely alive but working EEE Laptop that was running on Windows 7. I had no much idea what was Java even about, but I knew I needed Java to host a server. Driven with the thrill of running my own server, I installed Java 8, downloaded the Minecraft Server JAR, then ran it and prayed. It launches! So I excitedly pulled my phone and my sibling's tablet, opened multiplayer tab and... none?? I was confused, I didn't knew the concept of IP Address and Ports back then, it left me frustrated that gave me no hope.</p>
+<p>Then next year I discover Termux. And honestly I only discovered it first from goofball YouTube channels that shows how to launch a phishing sites to gain credentials, turns out <em>its more much than that.</em> Here I understood the fundamentals of networking, how commands and scripting works and building things
+At this period I would mostly just mess around and figure out how things work. And it can run OpenJDK.</p>
+<p><em>"OpenJDK Java? You say?"</em> I was intrigued back then that it was possible to run java on phones back then, it was like telling people back in 1900's that putting large fans to a machine can make it fly like a bird. <em>which is absurd</em> because no one in hell can fly except animals that has wings! But hell they did, just like running an OpenJDK runtime on a phone</p>
+<p>Though, I want to be clear, Android does use Java in system components and applications. But it does not use OpenJDK Runtime which what Minecraft uses. Instead it utilizes DalvikVM and replaced by ART (Android Runtime) on 2014, it is optimized for low-power devices, like a phone. And both aren't even the same at all. OpenJDK takes <code>.jar</code> files directly while ART requires a specific compiler to take java files into <code>.jar</code> then compiles into <code>.dex</code> files, then finally take that <code>.dex</code> to become an <code>odex</code> that becomes a native <code>.oat</code> Linux Binary. So much process to go through!</p>
+<p>But unfortunately, at this period of time, OpenJDK on phones was still at its infancy. People reported crashes and unexpected behavior. Worse case was that my main phone was still weak, A Samsung J2 Prime. Yes, I did use J2 Prime as my main phone back then, and it lasted way longer compared to my mid-end phones from 2018.</p>
+<p>But there were also sites like Aternos that allows you to host Minecraft Server for free, but not free <em>"As in free beer."</em>
+There was a time limitation that you had to watch ads each time you increase time. This was no problem in desktops, you just have to switch window to browser and done. No problems! But this was an immensely painful process being on an old J2 Prime, I have to close Minecraft, open my browser, wait for website to load, watch ads, then open minecraft and wait for almost 2 minutes to finally get back. This was an absolute painful process that takes almost 10 minutes each 30 minutes, so I only get 40 minutes of playtime instead of an uninterrupted hours of gameplay!</p>
+<p>I knew I need to do something. And the solution is quite literally outside the box.</p>
+<h1 id="google-cloud-shell">Google Cloud Shell</h1>
+<p>There were discussions floating around that a free cloud server exists, it sounded too good to be true at first, until when I tried it myself, it was too great, 8GB of RAM and 2 CPU cores and 5GB of home storage, just enough for things to run, but I encountered a problem ofcourse.</p>
+<h2 id="problem-1-google-sdk-was-big">Problem #1: Google SDK was big.</h2>
+<p>Installing the SDK counterparts floats around 1GB including the "alpha" components that I'm not really sure what's its even made off. What I do know is that I only need the <code>gcloud cloud-shell ssh</code> command. There wasn't really any known way to strip the components to only contain what's needed for <code>cloud-shell</code> as its a big behemoth that I don't want to spend my energy on. So instead, I had to think uniquely for solutions.</p>
+<h4 id="solution-1-remote-to-my-aunt-s-phone-to-access-gcloud">Solution #1: Remote to my aunt's phone to access gcloud</h4>
+<p>My aunt had this mid-end phone from 2018, so it was packed with 128GB of storage that may not sound alot for anyone, but for me who used a J2 Prime for years, it was massive. Following the tutorial kcubeterm provided, I got inside. But, how do I access it through my phone? I could've opted to use SSH. But well, there is two problems.</p>
+<ul>
+<li>remote shell inside remote shell is twice unreliable</li>
+<li>Like any typical person, she goes to work. And there is no way in hell I can enter a remote shell if their phone is on cellular data.</li>
+</ul>
+<p>Thankfully, there is a solution: <code>tmate</code>
+tmate is quite literally when SSH and Tmux have a child. It can retain a session while being able to attach and detach anytime, best thing is that it doesn't need port forwarding! tmate will provide a link that you can ssh to or use a web terminal.</p>
+<p>Doing a test-flight, it worked <em>just enough</em>, it takes like half a second to appear on your screen what you typed, but it wasn't really jarring that it felt bad.</p>
+<p>On real world.. It was that bad. I forgot to account Android have battery optimizations like when screen is off, so it would constantly disconnect. Cellular data is also turned off, I could've probably deliberately send a signal to wake up the screen every minute, but well that's outside the line I can do, she'll probably think her phone have malware.</p>
+<p>So I have to think again.</p>
+<h4 id="solution-2-use-a-linux-vm-on-a-small-computer-shop-and-remote-into-it">Solution #2: Use a Linux VM on a small Computer Shop and remote into it</h4>
+<blockquote>
+<p>please don't do this, this is absolutely dumb and stupid! I immediately stopped afterwards.</p>
+</blockquote>
+<p>Few blocks away from our house, a neighbor owns a computer shop, though its still on ancient times where you have to slide a peso coin. Aside from the smelly headsets and oily mouse, Computer Caffe's are the place to go when you don't have a computer and you want to play games. But I had a very different idea in mind.</p>
+<p>The computers ran on Windows 7, somewhat old for 2023 but VirtualBox and Zerotier still works. First, I installed VirtualBox, then installed Alpine Linux on it. The good thing about ZeroTier is that it supports bridging between VirtualBox's virtual network that allowed it to be directly accessable in the Zerotier network without dealing of NAT issues.</p>
+<p>And so far, it works, the problem is that <em>it works.</em> My puny brain forgot what I was doing was technically tresspassing, so I stopped.</p>
+<h4 id="solution-3-just-put-it-on-external-storage-and-write-a-wrapped-bash-script">Solution #3: Just put it on external storage and write a wrapped bash script.</h4>
+<p>After all of that troublesome mess, I decided to look for local solutions. One big gripe of Android is that execute permission was not allowed anywhere that a user can access such as the <code>/sdcard</code> path which where is files usually was stored. Nor symlinks is even allowed.</p>
+<p>But hold on, Google Cloud SDK is literally just a python program. It is interpreted and no native binaries with execution permission is required..</p>
+<p>While seemed like a dumb idea, I gave it a shot. I copied the folder onto my 14GB memory card where termux has access to. Wrote a wrapper bash script that contains</p>
+<pre class="giallo" style="color: #CDD6F4; background-color: #1E1E2E;"><code data-lang="shellscript"><span class="giallo-l"><span style="color: #89B4FA;font-style: italic;">/storage/6AF2-6798/Android/data/com.termux/files/google-cloud-sdk/bin/gcloud</span><span style="color: #EBA0AC;font-style: italic;"> $@</span></span></code></pre>
+<p>Stored the wrapper script on where termux can execute it and then..</p>
+<pre class="giallo" style="color: #CDD6F4; background-color: #1E1E2E;"><code data-lang="plain"><span class="giallo-l"><span>Welcome to Google Cloud SDK! </span></span></code></pre>
+<p>It works.</p>
+<h2 id="yipie-now-we-get-inside-now-what">Yipie, now we get inside! Now what?</h2>
+<p>The plan is simple, we run a Minecraft server, make it accessable to everyone, and the world is happy! right? <em>right???</em></p>
+<p>As expected from this setup, its not that easy.</p>
+<h2 id="problem-1-is-this-even-legal">Problem #1, Is this even legal?</h2>
+<p>Technically, Yes.
+Google cares only about three things</p>
+<blockquote>
+<ol>
+<li>Don't do cryptomining.</li>
+<li>Don't use this to do anything that abides the law.</li>
+<li>We will watch whatever you do.</li>
+</ol>
+</blockquote>
+<p>We are not hosting a malware, or using it to launch a cyberattack nor be [[watching porn on this cloud server]](you shouldn't consume porn in any form! please consider seeking help if you are suffering from porn addiction!). Instead, we are hosting a multiplayer game! But this isn't the real problem.</p>
+<h2 id="problem-2-the-server-isn-t-publically-accessable-by-anyone">Problem #2: The server isn't publically accessable by anyone</h2>
+<p>Since we are on free tier. Google Cloud Shell does not offer port forwarding publically, that means we can't just type <code>69.67.240.69:19132</code> directly in Minecraft and be happy about it. I can't even connect to the server!</p>
+<p>That sucks, 8GB RAM is wasted on this thing. But to hell with it, I won't give up making this publically accesable!</p>
+<h3 id="solution-1-tunnel-through-ssh-convert-udp-to-tcp-then-udp-back">Solution #1: Tunnel through SSH, convert UDP to TCP then UDP back</h3>
+<p>How do I even know how the hell</p>
+<h4 id="solution-2-zerotier">Solution #2: Zerotier</h4>
+<p>Zerotier had always been the first option for me since the beginning, as many forums online recommended it as an alternative for Hamachi. It actually worked well at first but one thing that annoyed me was that configuring it was absolutely painful every boot of google cloud shell. It afterward made the IP Address inconsistent</p>
+<h4 id="holy-grail-playit-gg">Holy grail: Playit.gg</h4>
+<h2 id="problem-3-the-hard-50-hours-limit">Problem #3: The hard 50 hours limit.</h2>
+<p>This is where the</p>
+<h1 id="choosing-a-hosting-software">Choosing a hosting software</h1>
+<h1 id="next-up">Next Up!</h1>
+<p>![[Pasted image 20260605200951.png]]</p>
+
+      </div>
+
+      <div class="pixel-divider" style="margin-top:20px;"></div>
+
+      <!-- POST FOOTER -->
+      <div class="post-footer">
+        <a class="nav-btn" href="https://nisheri-ascar.is-a.dev/blog">[ ← back to blog ]</a>
+        <a class="nav-btn" href="https://github.com/nisheri-ascar" target="_blank">[ github ]</a>
+      </div>
+
+    </div>
+  </article>
+
+</div>
+
+
+<<<<<<< HEAD
+  <!-- FOOTER MARQUEE  -->
+=======
+  <!-- FOOTER MARQUEE -->
+>>>>>>> parent of 283223f (remove footer marquee for now)
+  <div class="marquee-bar" style="margin-top:8px;">
+    <div class="marquee-inner" style="animation-direction:reverse; animation-duration:22s;">
+      ✦ NISHERI-ASCAR.IS-A.DEV ✦ MADE WITH HTML CSS AND SPITE ✦ NO COOKIES NO TRACKERS NO NONSENSE ✦ STAY A WHILE ✦ NISHERI-ASCAR.IS-A.DEV ✦
+    </div>
+
+  </div> 
+  
+
+  </div>
+
+
+  <!-- FOOTER -->
+  <div id="footer">
+    <span>nisheri-ascar</span> © 2026–forever · built by hand ·
+    <span class="blink">★</span>
+    <a href="https://github.com/nisheri-ascar" target="_blank" style="color:var(--lavender); text-decoration:none;">github ↗</a>
+    · made with <a href="https://claude.ai" target="_blank" style="color:var(--pink); text-decoration:none;">claude</a> <span style="color:var(--hot-pink);">♥</span>
+  </div>
+
+</div>
+</body>
+</html>
