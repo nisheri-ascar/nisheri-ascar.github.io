@@ -18,6 +18,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Debug whatever the fuck happened to this environment
+        shell: bash
+        run: |
+          ls
+          ls ..
+          find ..
       - name: checkout
         uses: actions/checkout@v6.0.1
 
@@ -25,6 +31,8 @@ jobs:
         uses: getzola/github-pages@v1
         with:
           zola_version: v0.22.1
+          check_links: true
+        
 
   deploy:
     runs-on: ubuntu-latest
