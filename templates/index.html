@@ -212,28 +212,39 @@
         </div>
       </div>
 
-      <!-- UPDATE LOG -->
+      <!-- RECENT POSTS -->
+      {% set blog_section = get_section(path="blog/_index.md") %}
       <div class="panel" id="section-blog">
-        <div class="panel-title">update log</div>
+        <div class="panel-title">blog // recent posts</div>
         <div class="panel-body">
-          <div class="update-log">
-            <div class="update-entry">
-              <div class="update-date">2026.xx.xx</div>
-              <div class="update-text"><b>NEW:</b> launched the site! finally.</div>
-            </div>
-            <div class="update-entry">
-              <div class="update-date">summer™</div>
-              <div class="update-text"><b>UPCOMING:</b> becoming active again. new projects. real output.</div>
-            </div>
-            <div class="update-entry">
-              <div class="update-date">soon™</div>
-              <div class="update-text">finishing at least one of the wip projects. probably.</div>
-            </div>
-            <div class="update-entry">
-              <div class="update-date">someday</div>
-              <div class="update-text">blog section. i have things to say about game dev & linux.</div>
-            </div>
+          {% if blog_section.pages %}
+          <div class="post-list">
+            {% for page in blog_section.pages | slice(end=3) %}
+            <a class="post-entry" href="{{ page.permalink }}">
+              <div class="post-entry-date">
+                {{ page.date | date(format="%Y.%m.%d") }}
+              </div>
+              <div class="post-entry-body">
+                <div class="post-entry-title">{{ page.title }}</div>
+                {% if page.description %}
+                <div class="post-entry-desc">{{ page.description }}</div>
+                {% endif %}
+              </div>
+              <div class="post-entry-arrow">→</div>
+            </a>
+            {% endfor %}
           </div>
+          <div style="text-align:right; margin-top:6px;">
+            <a href="{{ blog_section.permalink }}" style="font-family:'Press Start 2P',monospace; font-size:7px; color:var(--lavender); text-decoration:none;">
+              [ see all posts → ]
+            </a>
+          </div>
+          {% else %}
+          <div style="font-size:16px; color:var(--lavender); text-align:center; padding:20px;">
+            <div style="font-family:'Press Start 2P',monospace; font-size:9px; color:var(--pink); margin-bottom:8px;">no posts yet!</div>
+            check back soon — summer is coming and so is the hyperfocus.
+          </div>
+          {% endif %}
         </div>
       </div>
 

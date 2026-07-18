@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block title %}blog{% endblock %}
+{% block description %}writings by nisheri-ascar{% endblock %}
+
+{% block content %}
+<div class="blog-layout">
+
+  <div class="panel">
+    <div class="panel-title">blog // all posts</div>
+    <div class="panel-body">
+
+      <div class="notice-box" style="margin-bottom:12px;">
+        thoughts on game dev, systems programming, linux, and whatever i'm hyperfocusing on this week.
+      </div>
+
+      {% if section.pages %}
+        <div class="post-list">
+          {% for page in section.pages %}
+          <a class="post-entry" href="{{ page.permalink }}">
+            <div class="post-entry-date">
+              {{ page.date | date(format="%Y.%m.%d") }}
+            </div>
+            <div class="post-entry-body">
+              <div class="post-entry-title">{{ page.title }}</div>
+              {% if page.description %}
+              <div class="post-entry-desc">{{ page.description }}</div>
+              {% endif %}
+              {% if page.taxonomies.tags %}
+              <div class="post-tags">
+                {% for tag in page.taxonomies.tags %}
+                <span class="tag">{{ tag }}</span>
+                {% endfor %}
+              </div>
+              {% endif %}
+            </div>
+            <div class="post-entry-arrow">→</div>
+          </a>
+          {% endfor %}
+        </div>
+      {% else %}
+        <div style="font-size:16px; color:var(--lavender); text-align:center; padding:20px;">
+          <div style="font-family:'Press Start 2P',monospace; font-size:9px; color:var(--pink); margin-bottom:8px;">no posts yet!</div>
+          check back soon — summer is coming and so is the hyperfocus.
+        </div>
+      {% endif %}
+
+    </div>
+  </div>
+
+</div>
+{% endblock %}
