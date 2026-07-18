@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }}{% endblock %}
+{% block description %}{% if page.description %}{{ page.description }}{% else %}{{ config.description }}{% endif %}{% endblock %}
+
+{% block content %}
+<div class="blog-layout">
+
+  <article class="panel">
+    <div class="panel-title">
+      <a href="{{ get_url(path='/blog') }}" style="color:var(--lavender); text-decoration:none;">blog</a>
+      <span style="color:var(--purple);">/ </span>
+      {{ page.title }}
+    </div>
+    <div class="panel-body">
+
+      <!-- POST META -->
+      <div class="post-meta">
+        <span class="post-meta-date">
+          📅 {{ page.date | date(format="%Y.%m.%d") }}
+        </span>
+        {% if page.reading_time %}
+        <span class="post-meta-sep">·</span>
+        <span class="post-meta-read">⏱ {{ page.reading_time }} min read</span>
+        {% endif %}
+        {% if page.taxonomies.tags %}
+        <span class="post-meta-sep">·</span>
+        <span class="post-meta-tags">
+          {% for tag in page.taxonomies.tags %}
+          <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </span>
+        {% endif %}
+      </div>
+
+      <div class="pixel-divider"></div>
+
+      <!-- POST CONTENT -->
+      <div class="post-content">
+        {{ page.content | safe }}
+      </div>
+
+      <div class="pixel-divider" style="margin-top:20px;"></div>
+
+      <!-- POST FOOTER -->
+      <div class="post-footer">
+        <a class="nav-btn" href="{{ get_url(path='/blog') }}">[ ← back to blog ]</a>
+        <a class="nav-btn" href="https://github.com/nisheri-ascar" target="_blank">[ github ]</a>
+      </div>
+
+    </div>
+  </article>
+
+</div>
+{% endblock %}
