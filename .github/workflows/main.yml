@@ -32,6 +32,7 @@ jobs:
         with:
           zola_version: v0.22.1
           check_links: true
+          working_directory: "nisheri-ascar.github.io"
         
 
   deploy:
