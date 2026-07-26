@@ -1,0 +1,4 @@
+localhost {
+    root * /app/public
+    file_server
+}

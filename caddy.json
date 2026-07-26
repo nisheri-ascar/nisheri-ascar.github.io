@@ -1,0 +1,21 @@
+{
+  "apps": {
+    "http": {
+      "servers": {
+        "srv0": {
+          "listen": [":80"],
+          "routes": [
+            {
+              "handle": [
+                {
+                  "handler": "file_server",
+                  "root": "/srv/public"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}
