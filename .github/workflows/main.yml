@@ -1,9 +1,18 @@
-<<<<<<< HEAD
 name: Zola on GitHub Pages
-=======
-name: Build and deploy Zola website
-on:
-  push:
-    branches:
-      - main
->>>>>>> parent of 811aa64 (add workflow dispatch on main.yml)
+
+on: 
+ push:
+  branches:
+   - main
+
+jobs:
+  build:
+    name: Publish site
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout main
+      uses: actions/checkout@v4
+    - name: Build and deploy
+      uses: shalzz/zola-deploy-action@v0.22.1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
